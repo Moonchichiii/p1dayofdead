@@ -47,9 +47,12 @@ header {
 
 /* Navigation Start */
 #logo-home-button {
+    margin-left: -3rem;
+    margin-right: 2rem;
     text-decoration: none;
     font-size:5rem;
     color:#fbd72b;
+    
     }
 
 nav {
