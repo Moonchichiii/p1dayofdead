@@ -79,11 +79,8 @@ nav a:hover {
    text-decoration: underline;
 }
 
-
-
-
-
 /* Small screen Navigation Start*/
+
 .nav-skull {
     position: relative;
     display: inline-block;
@@ -173,17 +170,6 @@ section {
     overflow: auto;
 }
 
-section > img {   
-    margin-left:auto;
-    margin-right: auto;
-    width: 100%;
-    height:70vh;
-    object-fit: fill;    
-    border-radius: 50%;   
-}
-
-
-
 footer {
     display: flex;
     justify-content: center;
@@ -200,6 +186,16 @@ footer {
 /* Main Layout End */
 
 /* Componets Start */
+
+section > img {   
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    max-height:auto;
+    object-fit: cover;    
+    border-radius: 50%;   
+}
 
 .youtube-video {
     border: none;
@@ -223,12 +219,110 @@ footer {
     border:1px solid #5F0A87;
 }
 
-/* Componets Start */
+/* Componets End */
 
 
 
 
 /* Media queries Start */
+
+
+
+
+/* Navigation styles for large large screens */
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        margin-right: 1rem;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 0.25rem;
+    }
+
+    nav a {
+        display: block;
+        padding: 5px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #990011FF;
+        transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+        color: #ff8489;
+        text-decoration: underline;
+    }
+
+    .nav-skull {
+        display: none; 
+    }
+}
+
+/* Navigation styles for small screens */
+@media screen and (max-width: 767px) {
+    nav {
+        display: none; 
+    }
+#sticky {
+    position: fixed;
+    z-index:9999;
+    margin-right: auto;
+    margin-left: 50%;
+   
+
+}
+.nav-skull {
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    color:#F92C85;
+}
+
+#mob-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:#FCF6F5FF;
+    padding: 0.5rem;
+    border:1px solid #3a3a3a;
+    text-align: center;
+ 
+}
+
+#mob-menu ul li a {
+    list-style-type: none;
+    margin: 0.25rem 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.9;
+    text-decoration: none;
+    color:#990011FF;
+    transition: color 0.2s ease;
+   
+}
+
+#mob-menu ul li a:hover {
+    color:#ff8489;
+    text-decoration: underline; 
+}
+
+.nav-skull:hover #mob-menu {
+    display: block;
+    width: min-content;
+    height: min-content;
+   
+}
+}
+
+
+
+
+
+
 
 @media (max-width: 900px) {
   main {
@@ -236,19 +330,7 @@ footer {
     flex-direction: column;
     gap: 2rem;
   }
- section > img {   
-    display: flex;
-    align-items: center;
-    margin-left:auto;
-    margin-right: auto;
-    width: 100%;
-    height:50vh;
-    object-fit: contain;
-    padding:0;  
-    border-radius: 0;
    
-    }
-  
 }
 
 
@@ -280,4 +362,4 @@ h1 h2 h3 {
     margin-right: auto;
     margin-left: auto;
 }
-/* Media queries Start */
+/* Media queries End */
