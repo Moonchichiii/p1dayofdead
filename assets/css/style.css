@@ -266,6 +266,10 @@ hr {
     color:#ff8489;
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* Componets End */
 
