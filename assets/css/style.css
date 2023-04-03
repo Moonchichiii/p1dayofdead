@@ -13,10 +13,19 @@ body {
 /*  Typography  Start  */
 h1,h2,h3 {
 font-family: 'Delicious Handrawn', cursive;
+font-size: 1.9rem;
 }
 
 p {
 font-family: 'Noto Sans', sans-serif;
+line-height: 1.6;
+font-size: 1.1rem;
+font-weight: 700;
+color: #3a3a3a;
+word-spacing: normal;
+word-break: break-word;
+max-width: 600px;
+margin: 0 auto;
 }
 
 /*  Typography  End  */
@@ -31,6 +40,7 @@ header {
     padding: 10px;
     width: 90%;
     padding: 10px;
+    border-radius: 12px;
 }
 
 
@@ -95,6 +105,45 @@ main {
 }
 
 section {
+    border-radius: 12px;
+    margin: 1% auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: auto;
+}
+
+section > img {
+   
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    height:70vh;
+    object-fit: fill;    
+    border-radius: 50%;
+   
+}
 
 
+
+
+.youtube-video {
+    border: none;
+  }
+
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height:auto;
+    padding-bottom: 56.25%; 
+    overflow: hidden;    
+  }
+ 
+.video-wrapper iframe {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    border:1px solid #5F0A87;
 }
