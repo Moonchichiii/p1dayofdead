@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Noto+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1,h2,h3 {
+font-family: 'Delicious Handrawn', cursive;
+}
+
+p {
+font-family: 'Noto Sans', sans-serif;
+}
+
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FCF6F5FF;
+    margin: 1% auto 2%;
+    height: 10rem;
+    padding: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+
+
+/* Navigation Start */
+
+
+
+/* Navigation End */
+main {
+
+}
+
+section {
+
+}
