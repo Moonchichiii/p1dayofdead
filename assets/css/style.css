@@ -24,7 +24,6 @@ p {
   font-weight: 700; 
   color: #3a3a3a;
   word-spacing: normal;
-  word-break: break-word;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -192,7 +191,7 @@ section > img {
     margin-left:auto;
     margin-right: auto;
     width: 100%;
-    max-height:auto;
+    max-height:60vh;
     object-fit: cover;    
     border-radius: 50%;   
 }
@@ -277,7 +276,7 @@ section > img {
     position: relative;
     display: inline-block;
     font-size: 6rem;
-    color:#F92C85;
+    color:#9E15BF;
 }
 
 #mob-menu {
@@ -351,7 +350,7 @@ p {
   font-weight: 700; 
   color: #3a3a3a;
   word-spacing: normal;
-  word-break: break-word;
+
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
