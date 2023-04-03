@@ -17,15 +17,15 @@ font-size: 1.9rem;
 }
 
 p {
-font-family: 'Noto Sans', sans-serif;
-line-height: 1.6;
-font-size: 1.1rem;
-font-weight: 700;
-color: #3a3a3a;
-word-spacing: normal;
-word-break: break-word;
-max-width: 600px;
-margin: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-weight: 700; 
+  color: #3a3a3a;
+  word-spacing: normal;
+  word-break: break-word;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /*  Typography  End  */
@@ -46,6 +46,12 @@ header {
 
 
 /* Navigation Start */
+#logo-home-button {
+    text-decoration: none;
+    font-size:5rem;
+    color:#fbd72b;
+    }
+
 nav {
     display: flex;
     margin-right: 1rem;
