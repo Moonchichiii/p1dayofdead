@@ -9,6 +9,7 @@
 
 body {
     background-color: white;
+    scroll-behavior: smooth;
 }
 /*  Typography  Start  */
 h1,h2,h3 {
@@ -66,7 +67,7 @@ nav ul li {
  
 nav a {
     display: block;
-    padding: 10px;
+    padding:10px;
     font-size: 1.2rem;
     text-decoration: none;
     color:#990011FF;
@@ -83,17 +84,50 @@ nav a:hover {
 
 
 /* Small screen Navigation Start*/
-
 .nav-skull {
-    display: none;
-    font-size:6rem;
-    color:#fbd72b;
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    color: #fbd72b;
 }
 
 #mob-menu {
-
-
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:#FCF6F5FF;
+    padding: 0.5rem;
+    border:1px solid #3a3a3a;
+    text-align: center;
+ 
 }
+
+#mob-menu ul li a {
+    list-style-type: none;
+    margin: 0.25rem 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    text-decoration: none;
+    color:#990011FF;
+    transition: color 0.2s ease;
+   
+}
+
+#mob-menu ul li a:hover {
+    color:#ff8489;
+    text-decoration: underline; 
+}
+
+.nav-skull:hover #mob-menu {
+    display: block;
+    width: min-content;
+    height: min-content;
+   
+}
+
 
 /* Small screen Navigation End */
 
