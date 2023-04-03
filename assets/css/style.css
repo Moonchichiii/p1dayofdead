@@ -10,7 +10,7 @@
 body {
     background-color: white;
 }
-
+/*  Typography  Start  */
 h1,h2,h3 {
 font-family: 'Delicious Handrawn', cursive;
 }
@@ -19,7 +19,7 @@ p {
 font-family: 'Noto Sans', sans-serif;
 }
 
-
+/*  Typography  End  */
 header {
 
     display: flex;
@@ -36,7 +36,29 @@ header {
 
 
 /* Navigation Start */
+nav {
+    display: flex;
+    margin-right: 1rem;
+}
+ 
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+ 
+nav a {
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:#990011FF;
+    transition: color 0.2s ease;
+}  
 
+nav a:hover {
+   color:#ff8489;
+   text-decoration: underline;
+}
 
 
 /* Navigation End */
