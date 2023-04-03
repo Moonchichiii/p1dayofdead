@@ -47,7 +47,7 @@ header {
 
 /* Navigation Start */
 #logo-home-button {
-    margin-left: -3rem;
+    margin-left: -1rem;
     margin-right: 2rem;
     text-decoration: none;
     font-size:5rem;
@@ -92,7 +92,6 @@ width: 90%;
 height: 70vh;
 margin: 0 auto;
 border-radius: 12px;
-box-shadow: inset;
 }
 
 
@@ -118,7 +117,7 @@ section {
     margin: 1% auto;
     margin-right: 1%;
     margin-left: 1%;
-    text-align: auto;
+    overflow: auto;
 }
 
 section > img {
