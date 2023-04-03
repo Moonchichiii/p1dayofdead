@@ -30,7 +30,6 @@ p {
 
 /*  Typography  End  */
 header {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,10 +46,10 @@ header {
 
 /* Navigation Start */
 #logo-home-button {
-    margin-left: -1rem;
+    margin-left:1%;
     margin-right: 2rem;
     text-decoration: none;
-    font-size:5rem;
+    font-size:4rem;
     color:#fbd72b;
     
     }
@@ -80,6 +79,25 @@ nav a:hover {
 }
 
 
+
+
+
+/* Small screen Navigation Start*/
+
+.nav-skull {
+    display: none;
+    font-size:6rem;
+    color:#fbd72b;
+}
+
+#mob-menu {
+
+
+}
+
+/* Small screen Navigation End */
+
+
 /* Navigation End */
 
 /* Hero image */
@@ -94,8 +112,9 @@ margin: 0 auto;
 border-radius: 12px;
 }
 
+/* Hero image End */
 
-
+/* Main Layout Start */
 
 
 main {
@@ -120,19 +139,33 @@ section {
     overflow: auto;
 }
 
-section > img {
-   
+section > img {   
     margin-left:auto;
     margin-right: auto;
     width: 100%;
     height:70vh;
     object-fit: fill;    
-    border-radius: 50%;
-   
+    border-radius: 50%;   
 }
 
 
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FCF6F5FF;
+    margin: 1% auto 2%;
+    height: 10rem;
+    padding: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/* Main Layout End */
+
+/* Componets Start */
 
 .youtube-video {
     border: none;
@@ -155,3 +188,62 @@ section > img {
     height: max-content;
     border:1px solid #5F0A87;
 }
+
+/* Componets Start */
+
+
+
+
+/* Media queries Start */
+
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+ section > img {   
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    height:50vh;
+    object-fit: contain;
+    padding:0;  
+    border-radius: 0;
+   
+    }
+  
+}
+
+
+
+
+@media (max-width: 700px) {
+ #logo-home-button {
+    margin-left:1%;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size:3rem;
+    color:#fbd72b; }
+}
+p {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-weight: 700; 
+  color: #3a3a3a;
+  word-spacing: normal;
+  word-break: break-word;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 h2 h3 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Media queries Start */
