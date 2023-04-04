@@ -1,11 +1,18 @@
 #food {
-    background-image: url("/assets/images/assets/images/pexels-rodnae-productions-5738310.jpg");    
+    background-image: url("/assets/images/pexels-rodnae-productions-5738310.jpg");    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 90%;
     height: 60vh;
     margin: 0 auto;
-    border-radius: 12px;
+    border-radius: 15px;
+    padding:10px;
+     
  }
- 
+
+ #bread > p {
+    
+    text-align: left;
+    margin-left: -0%;   
+ }
