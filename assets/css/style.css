@@ -106,7 +106,8 @@ footer  {
    grid-template-columns: repeat(3, 1fr);
    gap: 2rem;
    margin: 2% auto;
-   background-color: #ECE6E5FF;
+   /*background-color: #ECE6E5FF;*/
+   background-image: linear-gradient(347deg, #5AFF15 5%,#fbd72b 85%);
    padding: 18px;
    width: 90%;
    height: auto;
@@ -294,8 +295,9 @@ hr {
 }
 
 .legend {
-    margin: 1% auto 1% 0;
+    margin: 1%;
     color:#5F0A87;
+    text-align: left;
 }
 
 form {
@@ -306,12 +308,11 @@ label input {
     border:none;
     border-radius: 10px;
     padding:4px;
-    background-color: #990011FF;
-    color:#ECE6E5FF;  
+    background-color: whitesmoke;
 }
 
 ::placeholder {
-    color:#ECE6E5FF;
+    color:#5F0A87;
 }
 
 input[type="submit"] {
