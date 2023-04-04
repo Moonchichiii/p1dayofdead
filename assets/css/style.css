@@ -77,7 +77,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: #ECE6E5FF;*/
     background-color: #FDF5DF;
     margin: 1% auto 2%;
     height: 10rem;
@@ -95,8 +94,6 @@ main {
     margin: 2% auto;
     width: 90%;
     background-color: #FDF5DF;
-    /*background-color: #923cb5;*/
-    /*background-image: linear-gradient(347deg, #5AFF15 5%,#fbd72b 85%);*/
     border-radius: 12px;
     padding: 10px;
 
@@ -115,8 +112,6 @@ footer  {
    grid-template-columns: repeat(3, 1fr);
    gap: 2rem;
    margin: 2% auto;
-   /*background-color: #ECE6E5FF;*/
-   /*background-image: linear-gradient(347deg, #5AFF15 5%,#fbd72b 85%);*/
    background-color: #FDF5DF;
    padding: 18px;
    width: 90%;
@@ -169,6 +164,7 @@ nav {
 nav ul li {
     display: inline-block;
     margin: 0 0.5rem;
+   
 }
  
 nav a {
@@ -178,6 +174,7 @@ nav a {
     text-decoration: none;
     color: #A0AECD;
     transition: color 0.2s ease;
+    
 }  
 
 nav a:hover {
@@ -191,18 +188,19 @@ nav a:hover {
     position: relative;
     display: inline-block;
     font-size: 6rem;
-    color: #fbd72b;
+    color:#5EBEC4;
 }
 
 #mob-menu {
-    display: none;
     position: absolute;
-    left: 0;
     top: 100%;
-    background-color:#FCF6F5FF;
-    padding: 0.5rem;
-    border:1px solid #3a3a3a;
+    left: 70%;
+    transform: translateX(-70%);
+    background-color: #FDF5DF;
+    padding: 1rem;
+    border-radius: 10px;
     text-align: center;
+    border:1px #3a3a3a solid;
  
 }
 
@@ -211,7 +209,7 @@ nav a:hover {
     margin: 0.25rem 0;
     padding: 0;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.9;
     text-decoration: none;
     color: #A0AECD;
@@ -289,13 +287,14 @@ hr {
     display: flex;
     flex-direction: row;
     gap:2%;
-    margin-top: 1%;
-    margin-left:6%;
+    margin-top: 2%;
+    margin-left:2%;
     list-style: none;
     padding: 0;
 }
 
 .social li i {
+    margin-top: 2%;
     font-size: 6rem;
     color:#990011FF;   
 }
@@ -313,31 +312,33 @@ hr {
 form {
     margin: 1% auto 1% 1%;
 }
+
 label input {
-    margin-top: 1%;
+    margin-top: 2%;
     border:none;
     border-radius: 10px;
     padding:4px;
-    background-color: whitesmoke;
+    background-color: #5EBEC4;
 }
 
 ::placeholder {
-    color:#5F0A87;
+    color:white;
 }
 
 input[type="submit"] {
-    margin-top: 1%;
+    margin-top: 2%;
     display: inline-block;
     border:none;
     border-radius: 10px;
     padding:4px;
     text-align: center;
-    background-color: #990011FF;
-    color:#ECE6E5FF;
+    background-color: #5EBEC4;
+    color:#3a3a3a;
 }
 
 input[type="submit"]:hover {
     background-color: #ff8489;
+    color:white;
 }
 
 
@@ -396,7 +397,7 @@ input[type="submit"]:hover {
     nav a {
         display: block;
         padding: 5px;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-decoration: none;
         color: #A0AECD;
         transition: color 0.2s ease;
@@ -433,19 +434,19 @@ input[type="submit"]:hover {
     margin-left:6%;
     margin-top: 7%;
     font-size: 4rem;
-    color:#9E15BF;
+    color:#5EBEC4;
 }
 
 #mob-menu {
-    display: none;
     position: absolute;
-    left: 0;
     top: 100%;
-    background-color:#FCF6F5FF;
-    padding: 0.5rem;
-    border:1px solid #3a3a3a;
+    left: 70%;
+    transform: translateX(-70%);
+    background-color: #FDF5DF;
+    padding: 1rem;
+    border-radius: 10px;
     text-align: center;
- 
+}
 }
 
 #mob-menu ul li a {
@@ -453,10 +454,10 @@ input[type="submit"]:hover {
     margin: 0.25rem 0;
     padding: 0;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     line-height: 1.9;
     text-decoration: none;
-    color:#990011FF;
+    color: #A0AECD;
     transition: color 0.2s ease;
    
 }
@@ -468,11 +469,11 @@ input[type="submit"]:hover {
 
 .nav-skull:hover #mob-menu {
     display: block;
-    width: min-content;
-    height: min-content;
+    width: max-content;
+    height: max-content;
    
 }
-}
+
 
 @media (max-width: 700px) {
  #logo-home-button {
@@ -480,8 +481,9 @@ input[type="submit"]:hover {
     margin-right: 1rem;
     text-decoration: none;
     font-size:3rem;
-    color:#fbd72b; }
+    color:#5EBEC4;
 }
+
 p {
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.6;
@@ -509,6 +511,8 @@ figure > img {
     border-radius: 50%;   
 }
 
+}
+
 @media (max-width: 320px) {
     
     figure > img {   
@@ -525,7 +529,8 @@ figure > img {
         margin-right: 1rem;
         text-decoration: none;
         font-size:2rem;
-        color:#fbd72b; }
+        color:#5EBEC4;
+     }
     }
     
 .social li i {
