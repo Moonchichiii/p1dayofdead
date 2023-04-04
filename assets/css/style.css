@@ -279,13 +279,13 @@ hr {
     flex-direction: row;
     gap:2%;
     margin-top: 1%;
-    margin-left:3%;
+    margin-left:6%;
     list-style: none;
     padding: 0;
 }
 
 .social li i {
-    font-size: 2rem;
+    font-size: 6rem;
     color:#990011FF;   
 }
 
@@ -293,7 +293,7 @@ hr {
     color:#ff8489;
 }
 
-legend {
+.legend {
     margin: 1% auto 1% 0;
     color:#5F0A87;
 }
@@ -516,5 +516,29 @@ figure > img {
         font-size:2rem;
         color:#fbd72b; }
     }
+    
+.social li i {
+    font-size: 2rem;
+    color:#990011FF;   
 }
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    margin-top: 1%;
+    margin-left:2%;
+    list-style: none;
+    padding: 0;
+}
+
+#about > p {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size:0.8rem;
+    color:#3a3a3a;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+}
+
 /* Media queries End */
