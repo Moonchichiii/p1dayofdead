@@ -1,0 +1,40 @@
+#origins {
+    margin: 1% 1% 1% 1%;
+    
+    width: 90%;
+    height: auto;
+    text-align: left;
+
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 800; 
+    padding: 10px; 
+    color: #3a3a3a;
+    word-spacing: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word; 
+    margin: 1% auto;
+    text-align: left;
+}
+
+#hero {
+    
+    height: 60vh;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    p {
+      font-size: 14px; 
+      line-height: 1.5; 
+      font-family: 'Noto Sans', sans-serif;
+      color: #333; 
+      padding: 10px; 
+      overflow-wrap: break-word;
+      word-wrap: break-word; 
+      max-width: 100%; 
+      text-align: center;
+    }
+}
