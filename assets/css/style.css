@@ -43,7 +43,7 @@ body {
 /*  Typography  Start  */
 
 
-h1,h2,h3,h4 {
+h1,h2,h3 {
 font-family: 'Delicious Handrawn', cursive;
 font-size: 1.9rem;
 }
@@ -315,10 +315,10 @@ form {
 
 label input {
     margin-top: 2%;
-    border:none;
     border-radius: 10px;
     padding:4px;
     background-color: #5EBEC4;
+    border: 2px solid white;
 }
 
 ::placeholder {

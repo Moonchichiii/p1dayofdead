@@ -25,6 +25,11 @@ p {
     
     height: 60vh;
 }
+
+.heading-origins {
+    color:#5EBEC4;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     p {
       font-size: 14px; 
