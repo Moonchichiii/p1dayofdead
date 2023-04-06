@@ -8,3 +8,17 @@
     margin: 0 auto;
     border-radius: 12px;
 }
+
+
+.heading-plan{
+    color:#5EBEC4;
+ }
+
+ .plan {
+    margin: 1% 1% 1% 1%;
+    
+    width: 90%;
+    height: auto;
+    text-align: left;
+
+}
