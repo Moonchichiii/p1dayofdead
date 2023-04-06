@@ -1,0 +1,9 @@
+.display {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    border-radius: 12px;
+}
