@@ -1,4 +1,12 @@
 
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .image-controller {
     display: grid;
     grid-template-rows: repeat(6,1fr);
@@ -18,7 +26,7 @@
     border-radius: 12px;
     padding:10px;
     margin: 5% 1% 1% 1%;
-    transition: ease-in-out 90ms;
+    transition: ease-in-out 99ms;
     
 }
 
@@ -31,12 +39,12 @@
 
 
 #image1.image-button:hover ~ #display {
-  background-image: url("/assets/images/gallery/pexels-jesus-toledo-14320195.jpg");
+  background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
 }
 
 
 #image2.image-button:hover ~ #display {
-    background-image: url("/assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");
+    background-image: url("/assets/images/pexels-bhargava-marripati-3551805.jpg");
     
 }
 
@@ -56,13 +64,6 @@
     background-image: url("/assets/images/pexels-oscar-damián-jiménez-14427926.jpg");
 }
 
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 #display {
     margin-right: auto;
@@ -73,5 +74,6 @@
     background-position: center;
     background-repeat: no-repeat;    
     border:3px solid #f356e5;
+   
     
   }
