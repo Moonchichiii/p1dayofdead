@@ -1,14 +1,4 @@
-.display {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
-    height: 50vh;
-    margin: 0 auto;
-    border-radius: 12px;
-    z-index: 1000;
 
-}
 
 .image-controller {
     display: grid;
@@ -27,7 +17,8 @@
     text-align: center;
     border-radius: 12px;
     padding:10px;
-    margin:1% 1% 1% 1%;
+    margin: 5% 1% 1% 1%;
+    transition: ease-in-out 90ms;
     
 }
 
@@ -36,3 +27,65 @@
 }
 
 
+
+
+
+#image-1.image-button:hover ~ #display {
+    background-image: url("assets/images/gallery/pexels-jesus-toledo-14320195.jpg");
+}
+
+
+#image-2.image-button:hover ~ #display {
+    background-image: url("/assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    height:70vh;
+    background-repeat: no-repeat;
+}
+
+#image-3.image-button:hover ~ #display {
+    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    height:70vh;
+    background-repeat: no-repeat;
+}
+
+#image-4.image-button:hover ~ #display {
+    background-image: url("/assets/images/pexels-fernando-paleta-14415254.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    height:70vh;
+    background-repeat: no-repeat;
+}
+
+#image-5.image-button:hover ~ #display {
+    background-image: url("/assets/images/pexels-marco-vargas-14346793.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    height:70vh;
+    background-repeat: no-repeat;
+}
+
+#image-6.image-button:hover ~ #display {
+    background-image: url("/assets/images/pexels-oscar-damián-jiménez-14427926.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    height:70vh;
+    background-repeat: no-repeat;
+}
+
+#display {
+    z-index:9999;
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    height:70vh;
+    background-repeat: no-repeat;
+    border:3px solid #f356e5;
+  }
