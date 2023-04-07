@@ -1,1 +1,137 @@
+#wrapper {
+   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.image-display1 .caption-display1:hover {
+    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 20vh;
+
+
+}
+
+
+.image-display2 .caption-display2:hover {
+    background-image: url("/assets/images/pexels-marco-vargas-14346793.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 20vh;
+
+}
+
+
+.image-display3 .caption-display3:hover {
+    background-image: url("/assets/images/pexels-fernando-paleta-14415254.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+
+}
+
+
+.image-display4 .caption-display4:hover {
+    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+}
+
+
+.image-display5 .caption-display5:hover {
+    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+}
+
+
+.image-display6 .caption-display6:hover {
+    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+}grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    height: 60vh;
+}
+.gallery-display {
+   
+.image-display1 .caption-display1:hover {
+    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 20vh;
+
+
+}
+
+
+.image-display2 .caption-display2:hover {
+    background-image: url("/assets/images/pexels-marco-vargas-14346793.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 20vh;
+
+}
+
+
+.image-display3 .caption-display3:hover {
+    background-image: url("/assets/images/pexels-fernando-paleta-14415254.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+
+}
+
+
+.image-display4 .caption-display4:hover {
+    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+}
+
+
+.image-display5 .caption-display5:hover {
+    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+}
+
+
+.image-display6 .caption-display6:hover {
+    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 20vh;
+
+}
+}
+
 
