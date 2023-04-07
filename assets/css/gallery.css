@@ -46,6 +46,7 @@
 
 #image1.image-button:hover ~ #display {
   background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
+  transition: ease-in-out 99ms;
 }
 
 
@@ -79,7 +80,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
-    border:3px solid #f356e5;
+    /*border:3px solid #f356e5;*/
    
     
-  }*/
+  }
