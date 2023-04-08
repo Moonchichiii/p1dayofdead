@@ -1,137 +1,94 @@
-#wrapper {
-   position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
-}
-
-.image-display1 .caption-display1:hover {
-    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 10%;
-    height: 20vh;
-
-
-}
-
-
-.image-display2 .caption-display2:hover {
-    background-image: url("/assets/images/pexels-marco-vargas-14346793.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 10%;
-    height: 20vh;
-
-}
-
-
-.image-display3 .caption-display3:hover {
-    background-image: url("/assets/images/pexels-fernando-paleta-14415254.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30%;
-    height: 20vh;
-
-
-}
-
-
-.image-display4 .caption-display4:hover {
-    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30%;
-    height: 20vh;
-
-}
-
-
-.image-display5 .caption-display5:hover {
-    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30%;
-    height: 20vh;
-
-}
-
-
-.image-display6 .caption-display6:hover {
-    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30%;
-    height: 20vh;
-
-}grid-template-columns: repeat(6,1fr);
-    width: 90%;
-    height: 60vh;
-}
 .gallery-display {
-   
-.image-display1 .caption-display1:hover {
-    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 10%;
-    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height:auto;
+}
 
+.image-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 25%;
+    width: 30%;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    border-radius: 12px;
+    padding: 10px;
+}
+    
+
+
+.image-display1{
+    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    margin-right: 1%;
+   
 
 }
 
 
-.image-display2 .caption-display2:hover {
+.image-display2 {
     background-image: url("/assets/images/pexels-marco-vargas-14346793.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 10%;
-    height: 20vh;
+    width: 100%;
+    height: 40vh;
+    margin-right: 1%;
 
 }
 
 
-.image-display3 .caption-display3:hover {
+.image-display3 {
     background-image: url("/assets/images/pexels-fernando-paleta-14415254.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 30%;
-    height: 20vh;
+    width: 100%;
+    height: 40vh;
+    margin-right: 1%;
 
 
 }
 
 
-.image-display4 .caption-display4:hover {
+.image-display4 {
     background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 30%;
-    height: 20vh;
+    width: 100%;
+    height: 40vh;
+    margin-right: 1%;
 
 }
 
 
-.image-display5 .caption-display5:hover {
+.image-display5 {
     background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 30%;
-    height: 20vh;
+    width: 100%;
+    height: 40vh;
+    margin-right: 1%;
 
 }
 
 
-.image-display6 .caption-display6:hover {
+.image-display6 {
     background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 30%;
-    height: 20vh;
+    width:100%;
+    height: 40vh;
+    margin-right: 1%;
 
 }
-}
 
-
+   
