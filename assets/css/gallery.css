@@ -16,6 +16,11 @@ Css Gallery Structure
 */
 
 /* Typography */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .gallery-heading {
     font-size:3rem;
@@ -28,7 +33,8 @@ Css Gallery Structure
 
 .gallery-display {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 10px;
     background-color: #FDF5DF;
     width: 90%;
     height: auto;
@@ -50,23 +56,17 @@ overflow: hidden;
 .image-display3,
 .image-display4,
 .image-display5,
-.image-display6,
-.image-display7,
-.image-display8,
-{
+.image-display6 {
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 150px;
-      
+    height: 250px;
 }
 
-.image-display1 {background-image: url("/");}
-.image-display2 {background-image: url("/");}
-.image-display3 {background-image: url("/");}
-.image-display4 {background-image: url("/");}
-.image-display5 {background-image: url("/");}
-.image-display6 {background-image: url("/");}
-.image-display7 {background-image: url("/");}
-.image-display8 {background-image: url("/");}
+.image-display1 {background-image: url("/assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");}
+.image-display2 {background-image: url("/assets/images/gallery/pexels-bruno-miranda-photography-14448838.jpg");}
+.image-display3 {background-image: url("/assets/images/gallery/pexels-jair-hernandez-13528639.jpg");}
+.image-display4 {background-image: url("/assets/images/gallery/pexels-fernando-paleta-14415227.jpg");}
+.image-display5 {background-image: url("/assets/images/gallery/pexels-marco-vargas-14346793.jpg");}
+.image-display6 {background-image: url("/assets/images/gallery/pexels-oscar-damián-jiménez-14427926.jpg");}
