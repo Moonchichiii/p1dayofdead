@@ -15,113 +15,58 @@ Css Gallery Structure
 
 */
 
-
+/* Typography */
 
 .gallery-heading {
     font-size:3rem;
     margin-right: auto;
     margin-left: 5%;
+    color:#5F0A87;
 }
-
 
 
 
 .gallery-display {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;  
-    align-items: center;
-    border-radius: 12px;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    background-color: #FDF5DF;
     width: 90%;
-    height:auto;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
-    background-color: #FDF5DF;
+    border-radius: 12px;
+    padding: 10px;
 }
 
 .image-box {
-    box-sizing: content-box;
-    text-align: center;
-    position: relative;  
-    height: 25%;
-    width: 30%;
-    overflow: hidden;
-    display: inline-block;
-    color: white;
-    position: relative;
-    border-radius: 12px;
-    padding: 5px;
+position: relative;
+overflow: hidden;
 }
     
 
 
-.image-display1{
-    background-image: url("/assets/images/pexels-fernando-paleta-14415245.jpg");
-    background-size: contain;
+.image-display1,
+.image-display2,
+.image-display3,
+.image-display4,
+.image-display5,
+.image-display6,
+.image-display7,
+.image-display8,
+{
+    background-size: cover;
+    background-position:center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 40vh;
-    margin-right: 1%;
- 
-   
+    height: 150px;
+      
 }
 
-
-.image-display2 {
-    background-image: url("/assets/images/pexels-marco-vargas-14346793.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 40vh;
-    margin-right: 1%;
-
-}
-
-
-.image-display3 {
-    background-image: url("/assets/images/pexels-fernando-paleta-14415254.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 40vh;
-    margin-right: 1%;
-
-
-}
-
-
-.image-display4 {
-    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 40vh;
-    margin-right: 1%;
-
-}
-
-
-.image-display5 {
-    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 40vh;
-    margin-right: 1%;
-
-}
-
-
-.image-display6 {
-    background-image: url("/assets/images/pexels-jesus-toledo-14320195.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:100%;
-    height: 40vh;
-    margin-right: 1%;
-
-}
-
-   
+.image-display1 {background-image: url("/");}
+.image-display2 {background-image: url("/");}
+.image-display3 {background-image: url("/");}
+.image-display4 {background-image: url("/");}
+.image-display5 {background-image: url("/");}
+.image-display6 {background-image: url("/");}
+.image-display7 {background-image: url("/");}
+.image-display8 {background-image: url("/");}
