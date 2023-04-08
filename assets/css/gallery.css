@@ -16,57 +16,84 @@ Css Gallery Structure
 */
 
 /* Typography */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .gallery-heading {
-    font-size:3rem;
+    font-size: 3rem;
     margin-right: auto;
     margin-left: 5%;
-    color:#5F0A87;
-}
-
-
-
-.gallery-display {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 10px;
+    color: #5F0A87;
+  }
+  
+  .gallery-display {
     background-color: #FDF5DF;
-    width: 90%;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 100%;    
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
     border-radius: 12px;
     padding: 10px;
+    margin-right:auto;
+    margin-left: auto;
+    transition: background-size 2s ease-in;
+  }
+  
+
+  .image-box {
+    margin-top: 1%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
 }
-
-.image-box {
-position: relative;
-overflow: hidden;
-}
-    
-
-
-.image-display1,
-.image-display2,
-.image-display3,
-.image-display4,
-.image-display5,
-.image-display6 {
+  
+  .image-display1,
+  .image-display2,
+  .image-display3,
+  .image-display4,
+  .image-display5,
+  .image-display6 {
+    gap: 10px;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 250px;
-}
+    width: 70%;
+    height: 350px;
+  }
+  
+
 
 .image-display1 {background-image: url("/assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");}
 .image-display2 {background-image: url("/assets/images/gallery/pexels-bruno-miranda-photography-14448838.jpg");}
-.image-display3 {background-image: url("/assets/images/gallery/pexels-jair-hernandez-13528639.jpg");}
+.image-display3 {background-image: url("/assets/images/gallery/pexels-jesus-toledo-14320195.jpg");}
 .image-display4 {background-image: url("/assets/images/gallery/pexels-fernando-paleta-14415227.jpg");}
 .image-display5 {background-image: url("/assets/images/gallery/pexels-marco-vargas-14346793.jpg");}
-.image-display6 {background-image: url("/assets/images/gallery/pexels-oscar-damián-jiménez-14427926.jpg");}
+.image-display6 {background-image: url("/assets/images/gallery/pexels-oscar-damián-jiménez-14427926.jpg");
+}
+
+.image-display1:hover {
+    background-size: 120%;
+  }
+.image-display2:hover {
+    background-size: 120%;
+  }
+.image-display3:hover {
+    background-size: 120%;
+  }
+.image-display4:hover {
+    background-size: 120%;
+  }
+.image-display5:hover {
+    background-size: 120%;
+  }
+.image-display6:hover {
+    background-size: 120%;
+  }
+  
+
+
+@media (min-width: 768px) {
+    .gallery-display {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+
