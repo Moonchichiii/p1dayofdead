@@ -2,16 +2,9 @@
 
 Css Gallery Structure 
 
-* base styles
 * Typography
 * Main Layout
-* Hero image
-* Navigation
-* Small screen Navigation
-* Components
-* Display
 * @ media queries
-*  Navigation styles for small screens
 
 */
 
@@ -24,28 +17,31 @@ Css Gallery Structure
     color: #5F0A87;
   }
   
+  /* Main Layout */
+
 .gallery-display {
-      background-color: #FDF5DF;
-      display: grid;
-      grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));
-      grid-gap: 5px;
-      width: 90%;
-      height: auto;
-      margin-right:auto;
-      margin-left: auto;
-      margin-bottom: 1%;
-      transition: background-size 2s ease-in;
-    }
+    background-color: #FDF5DF;
+    display: grid;
+    grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));
+    grid-gap: 5px;
+    width: 90%;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    transition: background-size 2s ease-in;
+}
     
 
   
 
-  .image-box {
-    margin-top: 1%;
-    position: relative;
-    overflow: hidden;
-    box-sizing: border-box;
-}
+.image-box {
+   margin-top: 1%;
+   position: relative;
+   overflow: hidden;
+   box-sizing: border-box;
+  }
+
   
   .image-display1,
   .image-display2,
@@ -55,6 +51,7 @@ Css Gallery Structure
   .image-display6,
   .image-display7,
   .image-display8 {
+    display: block;
     gap: 5px;
     background-size: cover;
     background-position: center;
@@ -63,7 +60,9 @@ Css Gallery Structure
     height: 350px;
   }
   
+/* main layout end */
 
+/* images in the gallery  */
 
 .image-display1 {background-image: url("/assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");}
 .image-display2 {background-image: url("/assets/images/gallery/pexels-bruno-miranda-photography-14448838.jpg");}
@@ -79,24 +78,41 @@ Css Gallery Structure
 
 .image-display1:hover {
     background-size: 120%;
+    opacity: 0.5;
   }
 .image-display2:hover {
     background-size: 120%;
+    opacity: 0.5;
   }
 .image-display3:hover {
     background-size: 120%;
+    opacity: 0.5;
   }
 .image-display4:hover {
     background-size: 120%;
+    opacity: 0.5;
   }
 .image-display5:hover {
     background-size: 120%;
+    opacity: 0.5;
+    
   }
 .image-display6:hover {
     background-size: 120%;
+    opacity: 0.5;
   }
   
+.image-display7:hover {
+  background-size: 120%;
+  opacity: 0.5;
+}
 
+.image-display8:hover {
+  background-size: 120%;
+  opacity: 0.5;
+}
+  
+/* media layout */
 
 @media (min-width: 768px) {
     .gallery-display {
