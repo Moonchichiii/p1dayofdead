@@ -319,10 +319,12 @@ label input {
     padding:4px;
     background-color: #5EBEC4;
     border: 2px solid white;
+    color:white;
 }
 
 ::placeholder {
     color:white;
+  
 }
 
 input[type="submit"] {
