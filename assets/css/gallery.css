@@ -24,19 +24,20 @@ Css Gallery Structure
     color: #5F0A87;
   }
   
-  .gallery-display {
-    background-color: #FDF5DF;
-    display: grid;    
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 80%;    
-    height: auto;
-    border-radius: 12px;
-    padding: 10px;
-    margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 1%;
-    transition: background-size 2s ease-in;
-  }
+.gallery-display {
+      background-color: #FDF5DF;
+      display: grid;
+      grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));
+      grid-gap: 5px;
+      width: 90%;
+      height: auto;
+      margin-right:auto;
+      margin-left: auto;
+      margin-bottom: 1%;
+      transition: background-size 2s ease-in;
+    }
+    
+
   
 
   .image-box {
@@ -51,12 +52,14 @@ Css Gallery Structure
   .image-display3,
   .image-display4,
   .image-display5,
-  .image-display6 {
-    gap: 10px;
+  .image-display6,
+  .image-display7,
+  .image-display8 {
+    gap: 5px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 70%;
+    width: 100%;
     height: 350px;
   }
   
@@ -68,6 +71,10 @@ Css Gallery Structure
 .image-display4 {background-image: url("/assets/images/gallery/pexels-fernando-paleta-14415227.jpg");}
 .image-display5 {background-image: url("/assets/images/gallery/pexels-marco-vargas-14346793.jpg");}
 .image-display6 {background-image: url("/assets/images/gallery/pexels-oscar-damián-jiménez-14427926.jpg");
+}
+.image-display7 {background-image: url("/assets/images/gallery/pexels-colibrí-tirado-14270040.jpg");
+}
+.image-display8 {background-image: url("/assets/images/gallery/pexels-fernando-paleta-14414680.jpg");
 }
 
 .image-display1:hover {
