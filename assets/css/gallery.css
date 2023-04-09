@@ -19,15 +19,17 @@ Css Gallery Structure
   
   /* Main Layout */
 .gallery-display {
-    background-color: #FDF5DF;
     display: grid;
-    grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));
+    /*grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));*/
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows:  350px 350px;
     grid-gap: 5px;
     width: 90%;
     height: auto;
     margin-right:auto;
     margin-left: auto;
     margin-bottom: 1%;
+    background-color: #FDF5DF;
     transition: background-size 2s ease-in;
 }
     
@@ -115,7 +117,11 @@ Css Gallery Structure
 
 @media (min-width: 768px) {
     .gallery-display {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      display: grid;
+    /*grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));*/
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows:  350px 350px;
+    grid-gap: 5px;
     }
 }
 
