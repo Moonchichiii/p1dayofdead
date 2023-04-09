@@ -21,7 +21,7 @@ Css Gallery Structure
 .gallery-display {
     display: grid;
     /*grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));*/
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-auto-rows:  350px 350px;
     grid-gap: 5px;
     width: 90%;
@@ -78,7 +78,7 @@ Css Gallery Structure
 }
 
 .image-display1:hover {
-    background-size: 120%;
+    /*background-size: 120%;*/
     opacity: 0.5;
   }
 .image-display2:hover {
@@ -115,12 +115,12 @@ Css Gallery Structure
   
 /* media layout */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .gallery-display {
       display: grid;
     /*grid-template-columns: repeat(3,auto-fit, minmax(350px, 1fr));*/
-    grid-template-columns: repeat(3,1fr);
-    grid-auto-rows:  350px 350px;
+    grid-template-columns: repeat(1,1fr);
+    /*grid-auto-rows:  350px 350px;*/
     grid-gap: 5px;
     }
 }
