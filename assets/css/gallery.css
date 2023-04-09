@@ -28,12 +28,13 @@ Css Gallery Structure
     background-color: #FDF5DF;
     display: grid;    
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 100%;    
+    width: 80%;    
     height: auto;
     border-radius: 12px;
     padding: 10px;
     margin-right:auto;
     margin-left: auto;
+    margin-bottom: 1%;
     transition: background-size 2s ease-in;
   }
   
