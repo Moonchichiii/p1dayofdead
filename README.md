@@ -14,9 +14,10 @@ The mobile menu, which transforms into a crossboned skull as the user scrolls do
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 160907.png" height="360" width="560">
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 160918.png" height="360" width="560">
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 160936.png" height="360" width="560">
-<img src="/assets/images/readmecontent/Screenshot 2023-04-10 165010.png" height="360" width="560">
-<img src="/assets/images/readmecontent/Screenshot 2023-04-10 170544.png" height="360" width="560">
+
+
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 170640.png" height="360" width="560">
+
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 170658.png" height="360" width="560">
 
 
