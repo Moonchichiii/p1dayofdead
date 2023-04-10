@@ -74,16 +74,28 @@ Credits
  - Photos are sourced from Pexels - https://pexels.com
 
 <h4>Content</h4>
-The font used is "Noto Sans" and "Delicious Hand-drawn".
-Media
+
+The font used is from Google Fonts
+
+- https://fonts.google.com/
+
+- "Delicious Hand-drawn" for the headings. 
+- "Noto Sans" for the rest of the texts. 
+  
+
+Media Sources
+
 In 2015, the British Museum celebrated the Days of the Dead in a four-day festival full of color, music, storytelling, and art. This beautiful documentary introduces the history and evolution of the Mexican Day of the Dead, from its pagan beginnings to the multi-faceted ceremony it is today.
 
-Mexican Day of the Dead
+- https://www.youtube.com/watch?v=8FHrhH9k-PY&t=4s
 
 Other Resources
+
 I used Stack Overflow to research a number of issues.
 
 Stack Overflow - https://stackoverflow.com/
+
+MDN - https://developer.mozilla.org/en-US/
 
 W3 Schools - https://www.w3schools.com/ 
 - Where i sourced the basic idea of the block mobile menu. 
