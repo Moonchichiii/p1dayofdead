@@ -66,16 +66,16 @@ Css Gallery Structure
 
 /* images in the gallery  */
 
-.image-display1 {background-image: url("../assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");}
-.image-display2 {background-image: url("../assets/images/gallery/pexels-bruno-miranda-photography-14448838.jpg");}
-.image-display3 {background-image: url("../assets/images/gallery/pexels-jesus-toledo-14320195.jpg");}
-.image-display4 {background-image: url("../assets/images/gallery/pexels-fernando-paleta-14415227.jpg");}
-.image-display5 {background-image: url("../assets/images/gallery/pexels-marco-vargas-14346793.jpg");}
-.image-display6 {background-image: url("../assets/images/gallery/pexels-oscar-damián-jiménez-14427926.jpg");
+.image-display1 {background-image: url("/assets/images/gallery/pexels-bhargava-marripati-3551805.jpg");}
+.image-display2 {background-image: url("/assets/images/gallery/pexels-bruno-miranda-photography-14448838.jpg");}
+.image-display3 {background-image: url("/assets/images/gallery/pexels-jesus-toledo-14320195.jpg");}
+.image-display4 {background-image: url("/assets/images/gallery/pexels-fernando-paleta-14415227.jpg");}
+.image-display5 {background-image: url("/assets/images/gallery/pexels-marco-vargas-14346793.jpg");}
+.image-display6 {background-image: url("/assets/images/gallery/pexels-oscar-damián-jiménez-14427926.jpg");
 }
-.image-display7 {background-image: url("../assets/images/gallery/pexels-colibrí-tirado-14270040.jpg");
+.image-display7 {background-image: url("/assets/images/gallery/pexels-colibrí-tirado-14270040.jpg");
 }
-.image-display8 {background-image: url("../assets/images/gallery/pexels-fernando-paleta-14414680.jpg");
+.image-display8 {background-image: url("/assets/images/gallery/pexels-fernando-paleta-14414680.jpg");
 }
 
 .image-display1:hover {
