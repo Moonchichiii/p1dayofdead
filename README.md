@@ -11,7 +11,9 @@ The design is visually appealing, with a variety of images showcasing the vibran
 
 The mobile menu, which transforms into a crossboned skull as the user scrolls down the page, adds a playful and thematic touch to the browsing experience on smaller screens.
 
-<img src="/assets/images/readmecontent/Screenshot 2023-04-10 160907.png" height="360" width="560">
+a small display of how it looks on the page, in the photos below. 
+
+<img src="/assets/images/readmecontent/Screenshot 2023-04-10 160907.png" height="360" width="660">
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 160918.png" height="360" width="560">
 <img src="/assets/images/readmecontent/Screenshot 2023-04-10 160936.png" height="360" width="560">
 
